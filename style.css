@@ -1,0 +1,177 @@
+html {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: rgba(33, 30, 53, 0.984);
+    color: white;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    height: max-content;
+    transition: 0.3s;
+}
+
+h3 {
+    padding-right: 20px;
+}
+
+.navbar {
+    background: rgba(68, 62, 108, 0.607);
+    width: 100vw;
+    position: fixed;
+}
+
+.li_navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.a_navbar {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background:rgba(44, 40, 70, 0.984);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.card {
+    background: rgba(44, 40, 70, 0.984);
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cardText {
+    font-style: italic;
+    background:rgba(68, 62, 108, 0.984);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cardImg {
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.div2 {
+    margin: 20px;
+}
+
+.btn {
+    margin-top: 100px;
+    font-weight: bold;
+    background: rgba(114, 173, 108, 0.801);
+    color: white;
+}
+
+.btnCard {
+    width: max-content;
+    font-weight: bold;
+}
+
+.btnBack {
+    display: none;
+}
+
+.completedBtnBack {
+    display: block;
+    position: fixed;
+    top: 3vh;
+    right: 30vw;
+}
+
+.completed {
+    background: rgba(77, 125, 72, 0.824);;
+}
+
+.completedText {
+    background: rgba(114, 173, 108, 0.801);
+}
+
+.completedTitle {
+    margin: 10px;
+}
+
+.separator {
+    padding: 40px;
+}
+
+.cancel_modal {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    background: rgb(82, 60, 118);
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    top: 100px;
+    left: 70px;
+    overflow-y: scroll;
+}
+
+.modal_hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal_title {
+    margin-left: 150px;
+    background: rgba(65, 32, 65, 0.897);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modal_btn {
+    margin: 10px;
+    font-weight: bold;
+}
+
+
+
+
+.a_navbar:hover {
+    color:rgba(114, 173, 108, 0.801);
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+button:hover {
+    filter: invert();
+}
+
+.cardImg:hover {
+    transform: scale(1.3);
+}
+
